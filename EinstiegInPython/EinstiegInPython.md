@@ -39,3 +39,14 @@ Das Programm zur Berechnung des Steuerbetrags soll weiter verändert werden. Der
 | mehr als 4.000 € | 26% |
 | 2.500 bis 4.000€ | 22% |
 | weniger als 2.500€ | 18% |
+
+## Übung 5
+**Dateiname:** u_operator.py  
+**Aufgabenstellung:**  
+Das Programm zur Berechnung des Steuerbetrags soll weiter verändert werden. Der Anwender soll dazu aufgefordet werden, sein monatliches Bruttogehalt und Familienstand einzugeben. Anschließend wird sein Steuerbetrag nach folgender Tabelle berechnet:  
+| Gehalt | Familienstand | Steuersatz |
+|---|---|---|
+| > 4.000 € | ledig | 26% |
+| > 4.000 € | verheiratet | 22% |
+| <= 4.000 € | ledig | 22% |
+| <= 4.000 € | verheiratet | 18% |
