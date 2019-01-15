@@ -29,3 +29,13 @@ Es ergibt sich ein Steuerbetrag von 660.0 Euro
 Geben Sie Ihr Bruttogehalt in Euro ein:  
 2000  
 Es ergibt sich ein Steuerbetrag von 360.0 Euro  
+
+## Übung 4
+**Dateiname:** u_verzweigung_mehrfach.py  
+**Aufgabenstellung:**  
+Das Programm zur Berechnung des Steuerbetrags soll weiter verändert werden. Der Anwender soll dazu aufgefordet werden, sein monatliches Bruttogehalt einzugeben. Anschließend wird sein Steuerbetrag nach folgender Tabelle berechnet:  
+| Gehalt | Steuersatz |
+|---|---|
+| mehr als 4.000 € | 26% |
+| 2.500 bis 4.000€ | 22% |
+| weniger als 2.500€ | 18% |
