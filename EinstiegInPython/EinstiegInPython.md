@@ -16,3 +16,16 @@ Schreiben Sie ein Programm zur Berechnung des monatlich zu zahlenden Steuerbetra
 Geben Sie Ihr Bruttogehalt in Euro ein:  
 2500  
 Es ergibt sich ein Steuerbetrag von 450.0 Euro  
+
+## Übung 3
+**Dateiname:** u_verzweigung_einfach.py  
+**Aufgabenstellung:**  
+Das Programm zur Berechnung des Steuerbetrags wird verändert. Der Anwender soll dazu aufgefordet werden, sein monatliches Bruttogehalt einzugeben. Liegt das Gehalt über 2.500€, sind 22% Steuern zu zahlen, ansonsten 18%.  
+**Test 1**  
+Geben Sie Ihr Bruttogehalt in Euro ein:  
+3000  
+Es ergibt sich ein Steuerbetrag von 660.0 Euro  
+**Test 2**  
+Geben Sie Ihr Bruttogehalt in Euro ein:  
+2000  
+Es ergibt sich ein Steuerbetrag von 360.0 Euro  
