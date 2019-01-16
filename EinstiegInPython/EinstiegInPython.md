@@ -112,3 +112,8 @@ Schreiben Sie ein Programm, das die folgenden Ausgaben erzeugt:
 **Dateiname:** u_while.py  
 **Aufgabenstellung:**  
 Schreiben Sie ein Programm, das den Anwender wiederholt dazu auffordert, einen Wert in Inch einzugeben. Der eingegebene Wert soll anschließend in Zentimeter Umgerechnet und ausgegeben werden. Das Programm soll nach Eingabe des Werts 0 beendet werden.  
+
+## Übung 9
+**Dateiname:** u_feher.py  
+**Aufgabenstellung:**  
+Verbessern Sie das Programm zu Eingabe und Umrechnung eines beliebigen Inch-Werts in Zentimeter. Eingabefehler des Anwenders sollen abgefangen werden. Das Programm soll den Anwender so lange zur Eingabe auffordern, bis sie erfolgreich war.  
