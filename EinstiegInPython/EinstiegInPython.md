@@ -117,3 +117,8 @@ Schreiben Sie ein Programm, das den Anwender wiederholt dazu auffordert, einen W
 **Dateiname:** u_feher.py  
 **Aufgabenstellung:**  
 Verbessern Sie das Programm zu Eingabe und Umrechnung eines beliebigen Inch-Werts in Zentimeter. Eingabefehler des Anwenders sollen abgefangen werden. Das Programm soll den Anwender so lange zur Eingabe auffordern, bis sie erfolgreich war.  
+
+## Übung 10
+**Dateiname:** u_parameter.py  
+**Aufgabenstellung:**  
+Das Programm zur Berechnung des Steuerbetrags wird verändert. Der Anwender soll dazu aufgefordet werden, sein monatliches Bruttogehalt einzugeben. Liegt das Gehalt über 2.500€, sind 22% Steuern zu zahlen, ansonsten 18%. Die Berechnung und die Ausgabe des Steuerbetrags sollen diesmal innerhalb einer Funktion mit dem Namen steuer() stattfinden. Die Funktion soll für die folgenden Gehälter aufgerufen werden: 1.800€, 2.200€, 2.500€, 2.900€.  
