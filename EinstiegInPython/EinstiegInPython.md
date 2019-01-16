@@ -96,3 +96,14 @@ print("Schleife 4")
 -3  
 -6  
 -9  
+
+## Übung 7
+**Dateiname:** u_range_inch.py  
+**Aufgabenstellung:**  
+Schreiben Sie ein Programm, das die folgenden Ausgaben erzeugt:  
+15 Inch = 38.1 cm  
+20 Inch = 50.8 cm  
+25 Inch = 63.5 cm  
+30 Inch = 76.2 cm  
+35 Inch = 88.9 cm  
+40 Inch = 101.6 cm  
