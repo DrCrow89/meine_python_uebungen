@@ -107,3 +107,8 @@ Schreiben Sie ein Programm, das die folgenden Ausgaben erzeugt:
 30 Inch = 76.2 cm  
 35 Inch = 88.9 cm  
 40 Inch = 101.6 cm  
+
+## Übung 8
+**Dateiname:** u_while.py  
+**Aufgabenstellung:**  
+Schreiben Sie ein Programm, das den Anwender wiederholt dazu auffordert, einen Wert in Inch einzugeben. Der eingegebene Wert soll anschließend in Zentimeter Umgerechnet und ausgegeben werden. Das Programm soll nach Eingabe des Werts 0 beendet werden.  
