@@ -127,3 +127,17 @@ Das Programm zur Berechnung des Steuerbetrags wird verändert. Der Anwender soll
 **Dateiname:** u_rueckgabewert.py  
 **Aufgabenstellung:**  
 Schreiben Sie das Programm aus Übung u_parameter um. Der Steuerbetrag soll innerhalb der Funktion steuer() berechnet werden und an das Hauptprogramm zurückgeliefert werden. Die Ausgabe des Wertes soll im Hauptprogramm stattfinden.  
+
+# Kapitel 5
+## Übung 1
+**Dateiname:** u_tabelle.py  
+**Aufgabenstellung:**  
+Schreiben Sie das Programm aus Übung u_range_inch so um, dass die folgende Ausgabe mit Überschrift erzeugt wird.  Die Beträge für die Spalten *Inch* und *cm* sollen jeweils mit zwei Nachkommastellen angezeigt und rechtsbündig ausgerichtet werden.  
+**Test**  
+Inch   cm  
+15.0  38.1  
+20.0  50.8  
+25.0  63.5  
+30.0  76.2  
+35.0  88.9  
+40.0 101.6  
