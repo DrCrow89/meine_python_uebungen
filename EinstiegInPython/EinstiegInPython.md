@@ -141,3 +141,8 @@ Inch   cm
 30.0  76.2  
 35.0  88.9  
 40.0 101.6  
+
+## Übung 2
+**Dateiname:** u_modul.py  
+**Aufgabenstellung:**  
+Schreiben Sie das Programm aus Übung u_rueckgabewert um: Die Funktion steuer() soll in die Datei u_modul_finanz.py ausgeagert werden. Das Hauptprogramm in Datei u_modul.py soll die Funktion aus dieser Datei importieren und nutzen.  
