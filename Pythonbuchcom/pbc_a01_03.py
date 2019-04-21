@@ -51,3 +51,5 @@ elif eingabe == 6:
     if ausgabe_kelvin < 0:
         ausgabe_kelvin = 0
     print(f"{ausgabe_fahrenheit}°F sind umgerechnet {ausgabe_kelvin}K")
+else:
+    print("Eintrag ist nicht vorhanden")
