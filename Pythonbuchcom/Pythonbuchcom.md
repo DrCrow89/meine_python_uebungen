@@ -7,10 +7,16 @@ Erstelle ein Programm, das deinen Vorname, Nachname und dein Geburtsdatum auf de
 **Dateiname:** pbc_a01_02.py  
 **Aufgabenstellung:**  
 Schreibe ein Programm, das zu einem gegebenen Winkel im Bogenmass (Eingabe in der Konsole durch den Benutzer), den entsprechenden Winkel im Gradmass berechnet. Die Ausgabe soll mit Grad (°), Bogenminuten (‚) und Bogensekunden („) ausgegeben werden.  
+**Test:**  
+Eingabe: 0.8942107145912499rad  
+Ausgabe: 51° 14' 4.2''  
 ## Übung 2z
 **Dateiname:** pbc_a01_02z.py  
 **Aufgabenstellung:**  
 Schreibe ein Programm, welches die Umrechnung vom Gradmass ins Bogenmass übernimmt.  
+**Test:**  
+Eingabe: 51.2345°  
+Ausgabe: 0.89rad  
 ## Übung 3
 **Dateiname:** pbc_a01_03.py  
 **Aufgabenstellung:**  
