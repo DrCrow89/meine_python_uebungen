@@ -128,10 +128,10 @@ def fahrenheit_in_kelvin(ue_fahrenheit):
         raise TypeError(FEHLERMELDUNG_TEMP)
 
 def programm_testen():
-    print("-------------------------------------------------------")
+    print("\n-------------------------------------------------------")
     print("Fehlgeschlagene Test:")
     doctest.testmod()
-    print("-------------------------------------------------------")
+    print("-------------------------------------------------------\n")
 
 def main():
     beenden = False
