@@ -69,7 +69,7 @@ auswahl_liste = OptionMenu(fenster, variable, *OPTIONS)
 # Labels
 info_label = Label(fenster, justify = LEFT, text="******************** Winkel Rechner ********************\n\
 1) Gewünschte Umrechnungsart auswählen\n\
-2) Temperatur eingeben\n\
+2) Winkel eingeben\n\
 3) Taste \"Umrechnen\" drücken")
 ergebnis_label = Label(fenster, justify = LEFT, text="Ergebnis: ")
 
