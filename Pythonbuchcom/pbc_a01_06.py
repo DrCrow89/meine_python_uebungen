@@ -10,6 +10,6 @@ while beenden == False:
     except:
         if eingabe == "q":
             beenden = True
-        pass
+        print("Bitte Zahlen eingeben.")
 zahlen_liste.sort()
 print(zahlen_liste)
