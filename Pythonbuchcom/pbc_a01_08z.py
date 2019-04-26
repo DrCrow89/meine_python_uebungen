@@ -25,7 +25,7 @@ def main():
         steuern_einkommen = einkommen*0.75
     else:
         steuern_einkommen = einkommen*0.82
-    print(vermoegen)
+
     if (vermoegen <= 100000):
         steuern_vermoegen = vermoegen*0.05
     elif ((vermoegen > 100000) and (vermoegen <= 500000)):

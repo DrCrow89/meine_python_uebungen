@@ -90,3 +90,17 @@ Der Steueramtchef von Flächenland stellt dich an, um ein einfaches Programm in 
 **Dateiname:** pbc_a01_08z.py  
 **Aufgabenstellung:**  
 Berücksichtige in deinem Programm neben dem Einkommen auch das Vermögen.  
+
+# Kapitel 2
+## Übung 1
+Erstelle ein Programm, das die Summe aller natürliche Zahlen n≤10000 mit 7∣n und 5∤n berechnet.  
+## Übung 1z
+List comprehension ist ein syntaktisches Konstrukt, um Listen zu erzeugen. Versuche nachher mit diesem Konstrukt ein äquivalentes Programm zu schreiben.  
+## Übung 2
+Erstelle ein Programm zur Lösung von quadratische Gleichungen:
+```
+ax^2+bx+c = 0
+```
+Die reellen Koeffizienten a,b,c werden vom Benutzer eingegeben.
+## Übung 2z
+Sei eine quadratische Funktion f(x)=ax2+bx+c durch ihre Koeffizienten a, b, c und eine lineare Funktion g(x)=mx+q durch m und q gegeben. Erstelle ein Programm, das die Schnittpunkte der Graphen von f und g berechnet.
