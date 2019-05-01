@@ -132,3 +132,12 @@ Passe deine Lösung aus der Aufgabe 6 (Sieb des Eratosthenes) so an, dass das Pr
 Mit Hilfe des Siebs des Eratosthenes sollst du nun ein Programm erstellen, weches die Primfaktorzerlegung einer natürliche Zahl berechnet.  
 ## Übung 8z
 Mit Hilfe der bisherigen Programme, welche du geschrieben hast, erstelle nun ein weiteres Programm, welches zu einer gegebenen Zahl n, alle vollkommenen Zahlen kleiner oder gleich n findet.  
+## Übung 9
+Das Monty-Hall-Problem (auch Ziegenproblem) ist eine Aufgabe mit Bezug zur Wahrscheinlichkeitstheorie. Nehmen Sie an, Sie wären in einer Spielshow und hätten die Wahl zwischen drei Toren. Hinter einem der Türen ist ein Auto, hinter den anderen sind Ziegen. Sie wählen eine Tür, sagen wir, Tür A, und der Showmaster, der weiss, was hinter den Türen ist, öffnet eine andere Tür, sagen wir, Tür C, hinter dem eine Ziege steht. Er fragt Sie nun: „Möchten Sie die Tür B?“ Ist es von Vorteil, die Wahl der Tür zu ändern? Selbst wenn du die Frage jetzt noch nicht beantworten kannst, versuche dieses Spiel mit einer graphischen Benutzeroberfläche zu implementieren. Benutze dazu das Modul tkinter.  
+Bemerkung: Es gibt keine richtige oder falsche Art, ein solches Programm zu schreiben. Hier gibt es aber einige Hinweise, die für die Erstellung nützlich sein können. Du musst sie aber nicht unbedingt befolgen!  
+Hinweise:  
+* indicate_goat(n): eine Funktion, die bei gegebener Tür (n=0,1 oder 2) eine andere Tür anzeigt, hinter welcher sich eine Ziege befindet. Aufgepasst: Falls der Spieler am Anfang „eine Ziege“ wählt, gibt es nur eine einzige Möglichkeit. Falls er aber „das Auto“ wählt, kann der Showmaster eine der beiden anderen Türen öffnen. Damit das Spiel fair bleibt, soll er zufällig eine Türe wählen.
+* Die drei Türen können als Buttons implementiert werden. In diesem Fall kann man drei Funktionen definieren (z.B. def doorA_action(), …). das Programm soll aber irgendwie die zwei Situationen (erste oder zweite Wahl) erkennen.
+* Hilfreiche Funktion: configure(). Zum Beispiel doorA.configure(state=DISABLED) deaktiviert Button doorA.
+## Übung 9z
+Ergänze dein Programm z.B. mit einer Menüleiste, Informationen über die Version oder die Entwickler, …
