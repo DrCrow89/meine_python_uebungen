@@ -1,3 +1,5 @@
+# Quelle
+Die Aufgabenstellungen habe ich von: https://pythonbuch.com/aufgabensammlung.html  
 # Kapitel 1
 ## Übung 1
 **Dateiname:** pbc_a01_01.py  
@@ -104,3 +106,38 @@ ax^2+bx+c = 0
 Die reellen Koeffizienten a,b,c werden vom Benutzer eingegeben.
 ## Übung 2z
 Sei eine quadratische Funktion f(x)=ax2+bx+c durch ihre Koeffizienten a, b, c und eine lineare Funktion g(x)=mx+q durch m und q gegeben. Erstelle ein Programm, das die Schnittpunkte der Graphen von f und g berechnet.
+## Übung 3
+Sei n∈N. Es gelten folgende Regeln:  
+Falls 3∣n, dann soll n um 4 erhöht werden.  
+Falls 3∤n aber 4∣n, dann soll n halbiert werden.  
+Falls 3∤n und 4∤n, dann soll n um 1 verkleinert werden.  
+Diese Regeln sollen nun sukzessive angewendet werden bis n=0 ist. Schreibe ein Programm, welches zu zwei gegebenen natürliche Zahlen a und b mit a < b, auf der Konsole die Anzahl benötigte Schritte für jedes n (a≤n≤b) ausgibt.  
+## Übung 3z
+Das Collatz-Problem ist ein ungelöstes mathematisches Problem. Es handelt sich dabei um eine Zahlenfolge, die im Zyklus 4-2-1 mündet, unabhängig davon, welche Startzahl n gewählt wird. Schaue dir zuerst an, wie die Folge definiert ist und erstelle dann ein Programm, welches bei einer gegeben Startzahl die Anzahl benötigte Schritte für die Erreichung des Zyklus 4-2-1 ausgibt.  
+## Übung 4
+Schreibe ein Programm, welches alle PPDIs mit drei Ziffern bestimmt.  
+## Übung 5
+Sei n>0 eine ganze Zahl, die durch 3 teilbar ist (zum Beispiel 86145). Die Summe der dritten Potenzen der Ziffern ist wieder eine Zahl, die durch 3 teilbar ist: 83+63+13+43+53=918.  
+Von dieser neuen Zahl kann man nochmals die Summe der dritten Potenzen der Ziffern berechnen und diese ist wieder durch 3 teilbar (93+13+83=1242), usw. Man kann beweisen, dass dieser Vorgang irgendwann zur 153 gelangt und bei dieser Zahl auch bleibt. Man bemerke, dass 153 eine PPDI ist (13+53+33=153).  
+Erstelle ein Programm, das diese Tatsache verifiziert. Im Programm musst du eine Funktion quersumme_dritter_potenzen() definieren. Diese Funktion nimmt als Argument eine ganze Zahl und gibt als Rückgabewert die Summe der dritten Potenzen der Ziffern dieser Zahl.  
+## Übung 6
+Das Sieb des Eratosthenes ist ein Algorithmus zur Bestimmung einer Liste oder Tabelle aller Primzahlen kleiner oder gleich einer vorgegebenen Zahl.  
+Schreibe ein Programm, das bei einer gegebenen natürliche Zahl N≥2, die Liste aller Primzahlen kleiner oder gleich N erzeugt.  
+Das Programm soll folgende Struktur haben:  
+Eine Funktion sieb() mit N als Eingabeparameter und welche die Liste der Primzahlen kleiner oder gleich N zurückgibt. Eine Funktion main(), in der der Benutzer zur Eingabe aufgefordert wird und die Funktion sieb() aufruft. Der Aufruf der main()-Funktion.  
+Als Test für dein Programm benutze folgende Tatsache: Es gibt 78’498 Primzahlen, welche kleiner als 1’000’000 sind.  
+## Übung 7
+Passe deine Lösung aus der Aufgabe 6 (Sieb des Eratosthenes) so an, dass das Programm neben der Liste der Primzahlen, auch die von der Funktion sieb() benötigte Zeit ausgibt.  
+## Übung 8
+Mit Hilfe des Siebs des Eratosthenes sollst du nun ein Programm erstellen, weches die Primfaktorzerlegung einer natürliche Zahl berechnet.  
+## Übung 8z
+Mit Hilfe der bisherigen Programme, welche du geschrieben hast, erstelle nun ein weiteres Programm, welches zu einer gegebenen Zahl n, alle vollkommenen Zahlen kleiner oder gleich n findet.  
+## Übung 9
+Das Monty-Hall-Problem (auch Ziegenproblem) ist eine Aufgabe mit Bezug zur Wahrscheinlichkeitstheorie. Nehmen Sie an, Sie wären in einer Spielshow und hätten die Wahl zwischen drei Toren. Hinter einem der Türen ist ein Auto, hinter den anderen sind Ziegen. Sie wählen eine Tür, sagen wir, Tür A, und der Showmaster, der weiss, was hinter den Türen ist, öffnet eine andere Tür, sagen wir, Tür C, hinter dem eine Ziege steht. Er fragt Sie nun: „Möchten Sie die Tür B?“ Ist es von Vorteil, die Wahl der Tür zu ändern? Selbst wenn du die Frage jetzt noch nicht beantworten kannst, versuche dieses Spiel mit einer graphischen Benutzeroberfläche zu implementieren. Benutze dazu das Modul tkinter.  
+Bemerkung: Es gibt keine richtige oder falsche Art, ein solches Programm zu schreiben. Hier gibt es aber einige Hinweise, die für die Erstellung nützlich sein können. Du musst sie aber nicht unbedingt befolgen!  
+Hinweise:  
+* indicate_goat(n): eine Funktion, die bei gegebener Tür (n=0,1 oder 2) eine andere Tür anzeigt, hinter welcher sich eine Ziege befindet. Aufgepasst: Falls der Spieler am Anfang „eine Ziege“ wählt, gibt es nur eine einzige Möglichkeit. Falls er aber „das Auto“ wählt, kann der Showmaster eine der beiden anderen Türen öffnen. Damit das Spiel fair bleibt, soll er zufällig eine Türe wählen.
+* Die drei Türen können als Buttons implementiert werden. In diesem Fall kann man drei Funktionen definieren (z.B. def doorA_action(), …). das Programm soll aber irgendwie die zwei Situationen (erste oder zweite Wahl) erkennen.
+* Hilfreiche Funktion: configure(). Zum Beispiel doorA.configure(state=DISABLED) deaktiviert Button doorA.
+## Übung 9z
+Ergänze dein Programm z.B. mit einer Menüleiste, Informationen über die Version oder die Entwickler, …
