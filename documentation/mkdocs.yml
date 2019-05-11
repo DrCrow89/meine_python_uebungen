@@ -1,0 +1,4 @@
+site_name: Dokumentation für meine Python-Übungen
+nav:
+    - Start: index.md
+    - Über mich: about.md
