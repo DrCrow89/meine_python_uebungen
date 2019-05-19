@@ -130,6 +130,25 @@ def sieb_eratosthenes(ue_n):
                     list[j] = False
     return list
 
+def get_anzahl_prim(ue_n):
+    """
+    Funktion gibt auf Basis des Siebs des Eratosthenes die Anzahl von Primzahlen kleiner gleich n zurück
+
+    >>> get_anzahl_prim(1)
+    0
+    >>> get_anzahl_prim(2)
+    1
+    >>> get_anzahl_prim(1000000)
+    78498
+    >>>
+    """
+    list_sieb = sieb_eratosthenes(ue_n)
+    temp_zaehler = 0
+    for i, val in enumerate(list_sieb):
+        if list_sieb[i] == True:
+            temp_zaehler += 1
+    return temp_zaehler
+
 def main():
     print("\n-------------------------------------------------------")
     print("Fehlgeschlagene Test:")
