@@ -1,17 +1,58 @@
-# !/usr/bin/env python
+# !/usr/bin/env python3.6
 # -*- coding:utf-8 -*-
 from math import sqrt
 import doctest
 
-def teile_dreier_zahl(ue_zahl):
+def loese_quad_gleichung_pq(ue_a, ue_b, ue_c):
     """
-    Funktion gibt die 
+    Funktion löst eine quadratische Gleichung der Form ax^2+bx+c = 0
 
-    >>> teile_dreier_zahl(1)
+    Rückgabewert ist eine Liste:
+    [0] -> Anzahl der Lösungen (Null, eine oder zwei reelle Lösungen)
+    [1] -> x1
+    [2] -> x2
+
+    >>> loese_quad_gleichung_pq(4, 2, -6)
+    [2, 1.0, -1.5]
+    >>> loese_quad_gleichung_pq(0, -3, 7)
+    [1, 2.3333333333333335, 2.3333333333333335]
+    >>>
+    """
+
+    if ue_a == 0.0:
+        x = -ue_c/ue_b
+        list = [1, x, x]
+        return list
+    else:
+        p = ue_b/ue_a
+        q = ue_c/ue_a
+        diskriminante = ((p/2)*(p/2)) - q
+
+        #Es gibt zwei verschiedene reelle Lösungen
+        if diskriminante > 0:
+            x1 = -p/2 + sqrt(diskriminante)
+            x2 = -p/2 - sqrt(diskriminante)
+            list = [2, x1, x2]
+            return list
+        #Es gibt eine reelle Lösung
+        elif diskriminante == 0:
+            x = -p/2
+            list = list = [1, x, x]
+            return list
+        #Es gibt keine reelle Lösungen
+        else: #diskriminante < 0
+            list = [0, 0, 0]
+            return list
+
+def stellenwert_hundert(ue_zahl):
+    """
+    Funktion gibt zu einer Zahl, welche kleiner 1000 sein muss, die Einer-, Zehner- und Hunderterstelle zurück.
+
+    >>> stellenwert_hundert(1)
     (0, 0, 1)
-    >>> teile_dreier_zahl(29)
+    >>> stellenwert_hundert(29)
     (0, 2, 9)
-    >>> teile_dreier_zahl(153)
+    >>> stellenwert_hundert(153)
     (1, 5, 3)
     >>>
     """
