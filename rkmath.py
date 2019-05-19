@@ -3,29 +3,41 @@
 from math import sqrt
 import doctest
 
-def loese_quad_gleichung_pq(ue_a, ue_b, ue_c):
+def loese_quad_gleichung_pq(ue_a, ue_b, ue_c, ue_d):
     """
-    Funktion löst eine quadratische Gleichung der Form ax^2+bx+c = 0
+    Funktion löst eine quadratische Gleichung der Form ax^2+bx+c = d
 
     Rückgabewert ist eine Liste:
     [0] -> Anzahl der Lösungen (Null, eine oder zwei reelle Lösungen)
     [1] -> x1
     [2] -> x2
 
-    >>> loese_quad_gleichung_pq(4, 2, -6)
+    >>> loese_quad_gleichung_pq(4, 2, -6, 0)
     [2, 1.0, -1.5]
-    >>> loese_quad_gleichung_pq(0, -3, 7)
+    >>> loese_quad_gleichung_pq(0, -3, 7, 0)
     [1, 2.3333333333333335, 2.3333333333333335]
+    >>> loese_quad_gleichung_pq(-4, 2, 6, 2)
+    [2, 1.2807764064044151, -0.7807764064044151]
+    >>> loese_quad_gleichung_pq(4, 2, 6, 2)
+    [0, 0, 0]
     >>>
     """
+    if ue_d == 0.0:
+        a = ue_a
+        b = ue_b
+        c = ue_c
+    else:
+        a = ue_a
+        b = ue_b
+        c = ue_c - ue_d
 
-    if ue_a == 0.0:
-        x = -ue_c/ue_b
+    if a == 0.0:
+        x = -c/b
         list = [1, x, x]
         return list
     else:
-        p = ue_b/ue_a
-        q = ue_c/ue_a
+        p = b/a
+        q = c/a
         diskriminante = ((p/2)*(p/2)) - q
 
         #Es gibt zwei verschiedene reelle Lösungen
