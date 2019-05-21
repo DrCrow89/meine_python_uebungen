@@ -149,6 +149,28 @@ def get_anzahl_prim(ue_n):
             temp_zaehler += 1
     return temp_zaehler
 
+def get_primfaktorzerlegung(ue_zahl):
+    """
+    Die Funktion berechnet aus einer natürliche Zahl die Primfaktorzerlegung
+
+    >>> get_primfaktorzerlegung(1)
+    []
+    >>> get_primfaktorzerlegung(2)
+    [2]
+    >>> get_primfaktorzerlegung(13230)
+    [2, 3, 3, 3, 5, 7, 7]
+    >>>
+    """
+    prim_liste = sieb_eratosthenes(ue_zahl)
+    zer_liste = []
+
+    for i, val in enumerate(prim_liste):
+        if prim_liste[i] == True:
+            while ue_zahl%i == 0:
+                ue_zahl = ue_zahl/i;
+                zer_liste.append(i)
+    return zer_liste
+
 def main():
     print("\n-------------------------------------------------------")
     print("Fehlgeschlagene Test:")
